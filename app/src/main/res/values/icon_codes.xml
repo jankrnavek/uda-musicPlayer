@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="icon_play">&#xf04b;</string>
+    <string name="icon_music">&#xf001;</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bg_color_main">#68768A</color>
+    <color name="bg_color_jazz">#66BB6A</color>
+    <color name="bg2_color_jazz">#C8E6C9</color>
+    <color name="bg_color_rock">#4FC3F7</color>
+    <color name="bg2_color_rock">#B3E5FC</color>
+    <color name="bg_color_funky">#FF8A65</color>
+    <color name="bg2_color_funky">#FFCCBC</color>
+    <color name="bg_color_reggae">#FFD54F</color>
+    <color name="bg2_color_reggae">#FFF9C4</color>
+</resources>

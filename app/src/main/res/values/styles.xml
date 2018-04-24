@@ -1,0 +1,42 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="main_activity_textView">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">40dp</item>
+        <item name="android:fontFamily">sans-serif-normal</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+
+    </style>
+
+    <style name="main_activity_linearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="main_activity_iconView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="other_activity_iconView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+</resources>

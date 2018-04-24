@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color_main"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/main_activity_linearLayout"
+        android:background="@color/bg_color_jazz">
+
+        <TextView
+            android:id="@+id/jazz"
+            style="@style/main_activity_textView"
+            android:layout_weight="3"
+            android:text="Jazz library" />
+
+        <com.example.android.musicplayer.IconTextView
+            style="@style/main_activity_iconView"
+            android:layout_weight="1"
+            android:text="@string/icon_music" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/main_activity_linearLayout"
+        android:background="@color/bg_color_rock">
+
+        <TextView
+            android:id="@+id/rock"
+            style="@style/main_activity_textView"
+            android:layout_weight="3"
+            android:text="Rock library" />
+
+        <com.example.android.musicplayer.IconTextView
+            style="@style/main_activity_iconView"
+            android:layout_weight="1"
+            android:text="@string/icon_music" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/main_activity_linearLayout"
+        android:background="@color/bg_color_funky">
+
+        <TextView
+            android:id="@+id/funky"
+            style="@style/main_activity_textView"
+            android:layout_weight="3"
+            android:text="Funky library" />
+
+        <com.example.android.musicplayer.IconTextView
+            style="@style/main_activity_iconView"
+            android:layout_weight="1"
+            android:text="@string/icon_music" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/main_activity_linearLayout"
+        android:background="@color/bg_color_reggae">
+
+        <TextView
+            android:id="@+id/reggae"
+            style="@style/main_activity_textView"
+            android:layout_weight="3"
+            android:text="Reggae library" />
+
+        <com.example.android.musicplayer.IconTextView
+            style="@style/main_activity_iconView"
+            android:layout_weight="1"
+            android:text="@string/icon_music" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
